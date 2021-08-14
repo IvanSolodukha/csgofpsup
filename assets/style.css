@@ -1,0 +1,123 @@
+body {
+    font-size: 15px;
+    font-family: 'Courier New', Bold;
+    margin: 0;
+    line-height: 1.6;
+}
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background: url("../assets/img/background.png") center no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    right: 0;
+    left: 0;
+}
+
+.container {
+    border: solid 2px #4c4c4c;
+    background-size: cover;
+    background: #4c4c4c;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    height: 125px;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 35px;
+    width: 150px;
+}
+
+.navigator {
+    font-size: 48px;
+    font-family: Impact;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    display: inline-block;
+    margin: 0 15px;
+    margin-right: 10%;
+    white-space: pre;
+    float: right;
+}
+
+.navigator:hover {
+    color: #77b3d4;
+    text-decoration: underline;
+}
+
+.logo:hover {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+.fpscontainer {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 10%;
+    background: #4c4c4c;
+    position: absolute;
+    top: 15%;
+    width: 47%;
+    height: 83%;
+    left: 5%;
+    opacity: 0.9;
+    transition: opacity 0.4s linear;
+}
+
+.fpscontainer:hover {
+    opacity: 1;
+}
+
+.fpstitle {
+    font-size: 25px;
+    font-family: Tahoma;
+    color: white;
+}
+
+.fpstitleb {
+    font-size: 25px;
+    font-family: Tahoma;
+    color: #77b3d4;
+}
+
+.fpstext {
+    font-size: 15px;
+    font-family: Tahoma;
+    color: white;
+    margin-left: 3%;
+}
+
+.download {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 30%;
+    background: #77b3d4;
+    top: 90%;
+    width: 40%;
+    height: 11%;
+    margin-left: 30%;
+    text-decoration: none;
+}
+.dtext {
+    font-size: 30px;
+    color: white;
+    font-family: Impact;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.download:hover {
+    border: solid 2px black;
+    padding: 2px;
+}
