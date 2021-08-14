@@ -9,7 +9,7 @@ body {
 }
 
 .main {
-    background: url("../assets/img/background.png") center no-repeat;
+    background: url("../assets/img/backgroundnews.png") center no-repeat;
     background-size: cover;
     margin: 0;
     width: 100%;
@@ -76,74 +76,58 @@ body {
     border-bottom: none; 
 }
 
-.fpscontainer {
+.newscontainer {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 10%;
+    background: #4c4c4c;
+    position: absolute;
+    top: 58%;
+    width: 50%;
+    height: 40%;
+    left: 25%;
+    opacity: 0.9;
+    transition: opacity 0.4s linear;
+}
+
+.newscontainer:hover {
+    opacity: 1;
+}
+
+.newscontainer2 {
     display: block;
     border: solid 2px #4c4c4c;
     border-radius: 10%;
     background: #4c4c4c;
     position: absolute;
     top: 15%;
-    width: 47%;
-    height: 83%;
-    left: 5%;
+    width: 50%;
+    height: 40%;
+    left: 25%;
     opacity: 0.9;
     transition: opacity 0.4s linear;
 }
 
-.fpscontainer:hover {
+.newscontainer2:hover {
     opacity: 1;
 }
 
-.fpstitle {
-    font-size: 25px;
-    font-family: Tahoma;
+.newstitle {
+    font-size: 40px;
+    font-family: Courier New;
     color: white;
 }
 
-.fpstitleb {
-    font-size: 25px;
-    font-family: Tahoma;
+.newstitleb {
+    font-size: 40px;
+    font-family: Courier New;
     color: #77b3d4;
 }
 
-.fpstext {
+.newstext {
     font-size: 15px;
-    font-family: Tahoma;
+    font-family: Courier New;
     color: white;
     margin-left: 3%;
 }
 
-.videoq {
-    font-size: 20px;
-    font-family: Tahoma;
-    color: white;
-}
-.videoqb {
-    font-size: 20px;
-    font-family: Tahoma;
-    color: #77b3d4;
-}
-
-.download {
-    display: block;
-    border: solid 2px #4c4c4c;
-    border-radius: 30%;
-    background: #77b3d4;
-    top: 90%;
-    width: 40%;
-    height: 11%;
-    margin-left: 30%;
-    text-decoration: none;
-}
-.dtext {
-    font-size: 30px;
-    color: white;
-    font-family: Impact;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.download:hover {
-    border: solid 2px black;
-    padding: 2px;
-}
