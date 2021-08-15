@@ -1,5 +1,5 @@
 body {
-    font-size: 15px;
+    font-size: 0.5vw;
     font-family: 'Courier New', Bold;
     margin: 0;
     line-height: 1.6;
@@ -9,10 +9,11 @@ body {
 }
 
 .main {
-    background: url("../assets/img/background.png") center no-repeat;
+    background: url("../assets/img/background.png") center;
+    background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     right: 0;
     left: 0;
@@ -25,37 +26,44 @@ body {
     position: fixed;
     margin: 0;
     top: 0;
-    width: 100%;
-    height: 125px;
+    width: 100vw;
+    height: 12vh;
+    z-index: 1000;
 }
 
 .logo {
     position: fixed;
-    top: 0;
-    left: 35px;
-    width: 150px;
+    top: 1.5vh;
+    left: 2vw;
+    height: 9vh;
+    width: 8vw;
+}
+
+.iframe {
+    width: 35vw;
+    height: 37vh;
 }
 
 .navigator {
-    font-size: 48px;
+    font-size: 3vh;
     font-family: Impact;
     color: white;
     text-decoration: none;
     transition: color 0.3s linear;
     display: inline-block;
-    margin: 0 15px;
+    margin: 1% 0.1%;
     margin-right: 10%;
     white-space: pre;
     float: right;
 }
 .navuse {
-    font-size: 48px;
+    font-size: 3vh;
     font-family: Impact;
     color: white;
     text-decoration: underline;
     transition: color 0.3s linear;
     display: inline-block;
-    margin: 0 15px;
+    margin: 1% 0.1%;
     margin-right: 10%;
     white-space: pre;
     float: right;
@@ -82,10 +90,10 @@ body {
     border-radius: 10%;
     background: #4c4c4c;
     position: absolute;
-    top: 15%;
-    width: 47%;
-    height: 83%;
-    left: 5%;
+    top: 9vw;
+    width: 45vw;
+    height: 79vh;
+    left: 5vw;
     opacity: 0.9;
     transition: opacity 0.4s linear;
 }
@@ -95,31 +103,31 @@ body {
 }
 
 .fpstitle {
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: Tahoma;
     color: white;
 }
 
 .fpstitleb {
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: Tahoma;
     color: #77b3d4;
 }
 
 .fpstext {
-    font-size: 15px;
+    font-size: 0.8vw;
     font-family: Tahoma;
     color: white;
     margin-left: 3%;
 }
 
 .videoq {
-    font-size: 20px;
+    font-size: 1vw;
     font-family: Tahoma;
     color: white;
 }
 .videoqb {
-    font-size: 20px;
+    font-size: 1vw;
     font-family: Tahoma;
     color: #77b3d4;
 }
@@ -129,18 +137,17 @@ body {
     border: solid 2px #4c4c4c;
     border-radius: 30%;
     background: #77b3d4;
-    top: 90%;
-    width: 40%;
-    height: 11%;
-    margin-left: 30%;
+    top: 90vh;
+    width: 20vw;
+    height: 6vh;
+    margin-left: 12.5vw;
     text-decoration: none;
 }
 .dtext {
-    font-size: 30px;
+    font-size: 1.1vw;
     color: white;
     font-family: Impact;
     text-align: center;
-    vertical-align: middle;
 }
 
 .download:hover {
