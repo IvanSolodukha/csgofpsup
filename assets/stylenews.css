@@ -39,6 +39,14 @@ body {
     width: 8vw;
 }
 
+.wlogo {
+    position: fixed;
+    top: 1.5vh;
+    left: 12vw;
+    height: 9vh;
+    width: 8vw;
+}
+
 .navigator {
     font-size: 3vh;
     font-family: Impact;
@@ -73,6 +81,13 @@ body {
 }
 
 .logo:hover {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+.wlogo:hover {
     display: block;
     padding: 5px; 
     text-decoration: none;
@@ -122,7 +137,7 @@ body {
 }
 
 .newstitleb {
-    font-size: 2vh;
+    font-size: 5vh;
     font-family: Courier New;
     color: #77b3d4;
 }

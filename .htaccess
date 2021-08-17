@@ -1,4 +1,0 @@
-RewriteEngine On
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ http://csgofpsup.tk [R=301,L]
-RewriteRule ^news\.html$ http://csgofpsup.tk/news [R=301,L]
